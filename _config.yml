@@ -27,7 +27,8 @@ description: >
 # root of your server.
 baseurl: "/hilmar-ioanna/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-cover: "/assets/day.jpg"
+day_cover: "/assets/day.jpg"
+night_cover: "/assets/night.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
@@ -51,12 +52,6 @@ sections:
   - EN_name: Gifts
     GR_name: Cadeaux
     url: gifts
-  - EN_name: RSVP
-    GR_name: Réponses
-    url: rsvp
-  - EN_name: Music
-    GR_name: Musique
-    url: music
 
 languages:
   - language: English
