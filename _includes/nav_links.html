@@ -1,0 +1,11 @@
+{% for sect in site.sections %}
+    {% if page.name == "index.html" %}
+        <li class="nav-link"><a href="#{{sect.url}}" alt="{{sect.EN_name}}">{{sect.EN_name}}</a>
+    {% else %}
+        <li class="nav-link"><a href="#{{sect.url}}" alt="{{sect.FR_name}}">{{sect.FR_name}}</a>
+    {% endif %}
+{% endfor %}
+
+{% for lang in site.languages %}
+    <li class="nav-link"><a href="{{lang.url | prepend: site.baseurl}}" alt="{{lang.language}}">{{lang.short}}</a>
+{% endfor %}
