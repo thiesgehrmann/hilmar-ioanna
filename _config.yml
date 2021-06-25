@@ -43,9 +43,6 @@ sections:
   - EN_name: Location
     GR_name: Lieux
     url: location
-  - EN_name: Parking
-    GR_name: Parking
-    url: parking
   - EN_name: Accommodation
     GR_name: Logements
     url: accommodation
