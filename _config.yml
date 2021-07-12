@@ -39,7 +39,7 @@ highlightjs_theme: "monokai-sublime"
 sections:
   - EN_name: Schedule
     GR_name: Programme
-    url: plans
+    url: schedule
   - EN_name: Location
     GR_name: Lieux
     url: location
